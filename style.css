@@ -90,6 +90,8 @@ body {
 
 a.navlink {
     appearance: button;
+    -webkit-appearance: button;
+    -moz-appearance: button;
     width: 28%;
     color: #00a28a;
     background-color: #112723;
@@ -107,6 +109,8 @@ a.navlink {
 
 a.navlink:hover {
     appearance: button;
+    -webkit-appearance: button;
+    -moz-appearance: button;
     width: 27%;
     color: #d7e5e0;
     background-color: #1e4e4c;
