@@ -92,7 +92,6 @@ a.navlink {
     appearance: button;
     -webkit-appearance: button;
     -moz-appearance: button;
-    width: 28%;
     color: #00a28a;
     background-color: #112723;
     font-family: Inter, Helvetica, Arial, sans-serif;
@@ -111,7 +110,6 @@ a.navlink:hover {
     appearance: button;
     -webkit-appearance: button;
     -moz-appearance: button;
-    width: 27%;
     color: #d7e5e0;
     background-color: #1e4e4c;
     font-family: Inter, Helvetica, Arial, sans-serif;
@@ -126,10 +124,14 @@ a.navlink:hover {
     transition-duration: 0.4s;
 }
 
-form {
-    display: inline;
-}
-
 div.navbar {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
     text-align: center;
 }
